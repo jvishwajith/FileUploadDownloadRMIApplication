@@ -1,3 +1,5 @@
+**Project Structure**
+
 RMIFileServerProject/
 |-- src/
 |   |-- FileServer.java          (RMI server interface)
@@ -9,6 +11,7 @@ RMIFileServerProject/
 |-- lib/                         (Directory for any external libraries, if needed)
 |-- README.md                    (Project documentation)
 
+**Terminal Commands to Compile and Execute :-**
 
 javac -d build src/*.java
 java -classpath build FileServerServer
